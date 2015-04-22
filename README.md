@@ -1,5 +1,7 @@
 # Documentation
 
+```JavaScript
+```
 ## Notations conformes aux demandes du responsable développement :
 
 * Préfixes : 
@@ -57,6 +59,63 @@
 
 > Creation d'un fichier pour enregistrer les informations du formulaire
 
+```PHP
+$strSeparateur  = ";";
+ 
+$strChaine      = $_POST['strFirstName'];
+$strChaine     .= $strSeparateur . $_POST['strLastName'];
+$strChaine     .= $strSeparateur . $_POST['strEmail'];
+$strChaine     .= $strSeparateur . $_POST['strPassword'];
+  
+if($_POST['sexe'] == "male") {
+    $strChaine .= $strSeparateur . "Homme";
+}
+else {
+   $strChaine .= $strSeparateur . "Femme";
+}
+   
+if ($_POST['driver'] == 1 ) {
+   $strChaine .= $strSeparateur . "Permis";
+}
+else { 
+   $strChaine .= $strSeparateur . "Pas de Permis";
+}
+$strChaine .= $strSeparateur . $_POST['strMessage'] . "\n"; 
+   
+if($resFic = fopen("forms_corrige.txt", 'a')) { 
+   fputs($resFic, $strChaine); 
+   fclose($resFic);
+}
+```
+> > Affichage du fichier dans un tableau 
 
+```PHP
+/*
+*
+* function vodAfficher      affiche un tableau html à partir d'un fichier texte
+* strFile                   nom du fichier
+* strSeparateur             séparateur des champs
+* 
+*/
+function vodAfficher($strFile, $strSeparateur) {
+    if($arrTab = file($strFile)) {
+        echo "<table border=\"1\">";
+            foreach ($arrTab as $strVal) {
+                echo "<tr>";
+                    $arrSsTab = explode($strSeparateur, $strVal);
+                    foreach($arrSsTab as $strSsVal) {
+                        echo  "<td>" . $strSsVal . "</td>";
+                    }
+                echo "</tr>";
+            }
+        echo "</table>";
+    }
+    else {
+        echo "erreur lors de l'ouverture du fichier text";
+    }
+}
+
+vodAfficher("forms_corrige.txt", ";");
+```
 
 
