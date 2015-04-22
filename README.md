@@ -208,3 +208,60 @@ echo "</table>";
  *  [Base de données MYSQL] (http://www.mysql.fr/)
 
 
+#### Installation 
+
+
+```PHP 
+--
+-- Base de données :  `pointage`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `salaries`
+--
+
+CREATE TABLE IF NOT EXISTS `salaries` (
+`idSalarie` int(11) NOT NULL,
+  `nomSalarie` varchar(255) NOT NULL,
+  `prenomSalarie` varchar(255) NOT NULL,
+  `emailSalarie` varchar(255) NOT NULL,
+  `passwordSalarie` varchar(255) NOT NULL,
+  `professionSalarie` varchar(255) NOT NULL,
+  `admin` tinyint(1) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
+
+--
+-- Contenu de la table `salaries`
+--
+
+INSERT INTO `salaries` (`idSalarie`, `nomSalarie`, `prenomSalarie`, `emailSalarie`, `passwordSalarie`, `professionSalarie`, `admin`) VALUES
+(1, 'Batillot', 'Fabrice', 'fabrice.batillot@gmh2i.com', 'admin', 'Responsable', 1),
+(2, 'Claude', 'Virgile', 'virgile.claude@gmh2i.com', 'password', 'DÃ©veloppeur Java', 0),
+(3, 'Chakour', 'Yassin', 'yacine.chakour@gmh2i.com', 'password', 'Chef de projets (Stagiaire)', 0),
+(4, 'Fathlislam', 'Hanane', 'hanane.fathlislam@gmh2i.com', 'password', 'Développeuse Php', 0),
+(5, 'Roquain', 'Florent', 'florent.roquain@gmh2i.com', 'password', 'Technicien', 0),
+(6, 'Uddin', 'Raphael', 'raphael.uddin@gmh2i.com', 'password', 'Technicien ', 0);
+
+--
+-- Index pour les tables exportées
+--
+
+--
+-- Index pour la table `salaries`
+--
+ALTER TABLE `salaries`
+ ADD PRIMARY KEY (`idSalarie`);
+
+--
+-- AUTO_INCREMENT pour les tables exportées
+--
+
+--
+-- AUTO_INCREMENT pour la table `salaries`
+--
+
+```
+
+
