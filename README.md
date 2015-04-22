@@ -17,8 +17,9 @@
 
 ## Memento 
 
-> Validation formulaire ( javaScript ) : 
-> > Email 
+>  Validation formulaire ( javaScript ) : 
+
+>  >  Email 
 
 ```JavaScript
  function blnValidateEmail() {     
@@ -35,7 +36,8 @@
      }
  }
 ```
-> > Nom / Prenom
+
+>  >  Nom / Prenom
 
 ```JavaScript
  function blnValidateForm() {
@@ -55,9 +57,10 @@
    }
 ```
 
-> > Etc etc .. a suivre 
+>  >  Etc etc .. a suivre 
 
-> Creation d'un fichier pour enregistrer les informations du formulaire
+
+>  Creation d'un fichier pour enregistrer les informations du formulaire
 
 ```PHP
 $strSeparateur  = ";";
@@ -87,7 +90,8 @@ if($resFic = fopen("fichier.txt", 'a')) {
    fclose($resFic);
 }
 ```
-> > Affichage du fichier dans un tableau 
+
+>  >  Affichage du fichier dans un tableau 
 
 ```PHP
 /*
@@ -117,7 +121,9 @@ function vodAfficher($strFile, $strSeparateur) {
 
 vodAfficher("fichier.txt", ";");
 ```
-> Affichage du tableau sur la page formulaire, sans redirection ( Ajax ) :
+
+>  Affichage du tableau sur la page formulaire, sans redirection ( Ajax ) :
+
 
 ```javascript
     function getInfo(){
