@@ -154,6 +154,7 @@ vodAfficher("fichier.txt", ";");
     }
 
 ```
+>  Insertion dans la Base de donnée, affichage et ajout de la date/heure
 
 ```PHP 
 
