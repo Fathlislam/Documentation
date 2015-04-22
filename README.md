@@ -186,4 +186,24 @@ echo "</table>";
 
 ## Projet 
 
+ > > Objet 
+ 
+ > > > Expression de besoin pour une solution de pointage horaire des salariés
+ 
+ > > Principe de fonctionnement
+ 
+ > > > Le salarié s'identifiera avec son adresse mail et un mot de passe
+ 
+ > > > Redirection du salarié vers la page pointage ( Date du jour / Heure d'entrée / heure de sortie/ validation )
+ 
+ > > > Les données seront stockées dans une base de donnée MySQL avec 2 tables ( Salariés / journées)
+ 
+
+#### Technologies utilisées
+ 
+ *  HTML5
+ *  PHP5
+ *  Bootstrap 3.2
+ *  Base de données MYSQL
+
 
