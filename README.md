@@ -5,7 +5,7 @@
 ## Notations conformes aux demandes du responsable développement :
 
 * Préfixes : 
-  * Chaines de caractère  : ```JavaScript $strVariable = "mavariable"; ```
+  * Chaines de caractère  : ```php $strVariable = "mavariable"; ```
   * Entiers               : <code> $intVariable = 13;</code>
   * Booléens              : <code> $Blnresultat = true;  </code>
   * Fonctions             : <code> function vodMaFonction ();</code>
