@@ -119,7 +119,7 @@ vodAfficher("fichier.txt", ";");
 ```
 > Affichage du tableau sur la page formulaire, sans redirection ( Ajax ) :
 
-```AJAX
+```javascript
     function getInfo(){
         var xmlhttp;
         if (window.XMLHttpRequest){
@@ -148,4 +148,6 @@ vodAfficher("fichier.txt", ";");
     }
 
 ```
+
+
 
