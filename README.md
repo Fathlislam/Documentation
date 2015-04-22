@@ -1,11 +1,11 @@
 # Documentation
 
-```JavaScript
-```
+```JavaScript ```
+```PHP ```
 ## Notations conformes aux demandes du responsable développement :
 
 * Préfixes : 
-  * Chaines de caractère  : <code> $strVariable = "mavariable";</code>
+  * Chaines de caractère  : ```JavaScript $strVariable = "mavariable"; ```
   * Entiers               : <code> $intVariable = 13;</code>
   * Booléens              : <code> $Blnresultat = true;  </code>
   * Fonctions             : <code> function vodMaFonction ();</code>
