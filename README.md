@@ -82,7 +82,7 @@ else {
 }
 $strChaine .= $strSeparateur . $_POST['strMessage'] . "\n"; 
    
-if($resFic = fopen("forms_corrige.txt", 'a')) { 
+if($resFic = fopen("fichier.txt", 'a')) { 
    fputs($resFic, $strChaine); 
    fclose($resFic);
 }
@@ -115,7 +115,37 @@ function vodAfficher($strFile, $strSeparateur) {
     }
 }
 
-vodAfficher("forms_corrige.txt", ";");
+vodAfficher("fichier.txt", ";");
 ```
+> Affichage du tableau sur la page formulaire, sans redirection ( Ajax ) :
 
+```AJAX
+    function getInfo(){
+        var xmlhttp;
+        if (window.XMLHttpRequest){
+            xmlhttp = new XMLHttpRequest();
+        }
+        else{
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        };
+
+        var strFirstName = encodeURIComponent(document.getElementById("strFirstName").value);
+        var strLastName = encodeURIComponent(document.getElementById("strLastName").value);
+        var strEmail = encodeURIComponent(document.getElementById("strEmail").value);
+        var strPassword = encodeURIComponent(document.getElementById("strPassword").value);
+        var driver = encodeURIComponent(document.getElementById("driver").value);
+        var strMessage = encodeURIComponent(document.getElementById("strMessage").value);
+ 
+        xmlhttp.onreadystatechange = function(){
+            if (xmlhttp.readyState == 4 & xmlhttp.status == 200) {
+                document.getElementById("Jax").innerHTML = xmlhttp.responseText;
+            };
+        }
+
+        xmlhttp.open("POST","action_corrige.php",true);
+        xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        xmlhttp.send("strFirstName=" + strFirstName + "&strLastName=" + strLastName + "&strEmail=" + strEmail + "&strPassword=" + strPassword + "&driver=" + driver + "&strMessage=" + strMessage);
+    }
+
+```
 
