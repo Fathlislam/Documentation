@@ -201,9 +201,10 @@ echo "</table>";
 
 #### Technologies utilisées
  
- *  HTML5
- *  PHP5
- *  Bootstrap 3.2
- *  Base de données MYSQL
+ *  [HTML5] (http://www.w3schools.com/html/html5_intro.asp)
+ *  [PHP5] (http://php.net/)
+ *  [JQuery] (http://jquery.com/)
+ *  [Bootstrap 3.2] (http://getbootstrap.com/)
+ *  [Base de données MYSQL] (http://www.mysql.fr/)
 
 
