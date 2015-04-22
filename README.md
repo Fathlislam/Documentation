@@ -155,5 +155,32 @@ vodAfficher("fichier.txt", ";");
 
 ```
 
+```PHP 
+
+$bdd->exec(
+    'INSERT INTO Informations(strFirstName, strLastName, strEmail, strPassword, sexe, driver, strMessage) 
+    VALUES('. $bdd->quote($_POST['strFirstName']) .', '. $bdd->quote($_POST['strLastName']) .', '.                        $bdd->quote($_POST['strEmail']) .', '. $bdd->quote($_POST['strPassword']) .', '. $bdd->quote($_POST['sexe']) .',      '. $bdd->quote($_POST['strMessage']) .', NOW())'
+    );
+
+$reponse = $bdd->query('SELECT * FROM Informations'); 
+
+$maintenant = mktime(date("H"),date("i"),0,date("m") ,date("d"),date("Y"));
+$now = date('H:i  d/m/y', $maintenant); // date now
+
+echo "<table border=\"1\">";
+while ($donnees = $reponse->fetch()) {
+    echo "<tr>";
+    echo '<td>'. $donnees['strFirstName'] .' '. $donnees['strLastName'].'</td>';
+    echo '<td>'. $donnees['strEmail'] . ' </td>';
+    echo '<td>'. $donnees['strPassword'] . ' </td>';
+    echo '<td>'. $donnees['sexe'].'</td>';
+    echo '<td>'. $donnees['driver'].'</td>';
+    echo '<td>'. $donnees['strMessage'].' </td>';
+    echo '<td>'. $donnees[$now].'</td>';
+    echo "</tr>";
+}
+echo "</table>";
+
+```
 
 
