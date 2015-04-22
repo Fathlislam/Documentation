@@ -209,7 +209,7 @@ echo "</table>";
 
 
 #### Installation 
-
+> > > Creation de la table Salariés
 
 ```PHP 
 --
@@ -263,5 +263,43 @@ ALTER TABLE `salaries`
 --
 
 ```
+> > > Creation de la table Journées
+
+```PHP
+--
+-- Base de données :  `pointage`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `journees`
+--
+
+CREATE TABLE IF NOT EXISTS `journees` (
+`idJournee` int(10) unsigned NOT NULL,
+  `idSalarie` int(11) NOT NULL,
+  `dateDebut` int(11) NOT NULL,
+  `dateFin` int(11) NOT NULL,
+  `dateJour` varchar(10) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=66 DEFAULT CHARSET=latin1;
+
+--
+-- Index pour la table `journees`
+--
+ALTER TABLE `journees`
+ ADD PRIMARY KEY (`idJournee`), ADD KEY `fk_salaries_idSalarie` (`idSalarie`);
 
 
+--
+-- AUTO_INCREMENT pour la table `journees`
+--
+ALTER TABLE `journees`
+MODIFY `idJournee` int(10) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=66;
+
+--
+-- Contraintes pour la table `journees`
+--
+ALTER TABLE `journees`
+ADD CONSTRAINT `fk_salaries_idSalarie` FOREIGN KEY (`idSalarie`) REFERENCES `salaries` (`idSalarie`);
+```
