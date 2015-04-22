@@ -15,7 +15,7 @@
   * Formulaire            : <code> form name="formTest"  action="" method="post"  </code>
   
 
-## Memento 
+## Récapitulatif 
 
 >  Validation formulaire ( javaScript ) : 
 
