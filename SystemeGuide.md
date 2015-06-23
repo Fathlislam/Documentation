@@ -50,7 +50,7 @@ Module Guide  : Module de gestion du personnel extérieur.
 	donc lorsqu'on va cocher une case, on va déclencher un traitement Ajax qui va, 
 	dans un premier temps vérifier l'état des 3 cases (s'il y a entrée ou non). 
         
-       ![GestionDesDroits](C:\Utilisateurs\hfathlislam\Images/GestionDeProfil.png)
+       ![GestionDesDroits](C:\Users\hfathlislam\Pictures\GestionDeProfil.png)
 
 	Pour résumer, au clic sur l'une des croix, cela appellera une fonction Ajax qui a pour paramètre 
 	le nom de la table et le profile, si on a un enregistrement on fait un ``update`` de cet enregistrement, 
