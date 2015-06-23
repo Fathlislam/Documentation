@@ -21,6 +21,8 @@ Module Guide  : Module de gestion du personnel extérieur.
 
 ##Gestion de Profil                          <a id="Profil"></a>
 
+![GestionDesDroits](C:\Users\hfathlislam\Pictures\GestionDeProfil.png)
+
 #### Droit sur les tables   ``/*(Modules/Administration*/fonctionnalités/Gestion des profiles/détail du profil)*/``
 	
 	A la création du profil, nous arrivons sur la page de droit, on fait un select par rapport au profil (prf_id),
