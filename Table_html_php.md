@@ -13,9 +13,9 @@
 |                | Affichage de la liste des tables                                   |
 |                | " + " Ajouter une ligne `(getModalCreat()) `                       |
 |                |`(getModalCreat()) ` ==> Requete Ajax vers le fichier table.ajax  et `case 'ajouterLigne' :`     |
-|`table.ajax.php`| ` $sc=explode("_",$table); `    |
+|`table.ajax.php`|`$sc=explode("_",$table); `    |
 |                |`$schema=$this->schema; `    |
-|                | `$schema=$this->_objCMFCAction->schema;`    |
-|                | `$desc=$this->_objCMFCAction->getDBObject($table,end($sc),'table',$schema);   `       |
-|                | **Destroy your computer!**     |
+|                |`$schema=$this->_objCMFCAction->schema;`    |
+|                |`$desc=$this->_objCMFCAction->getDBObject($table,end($sc),'table',$schema);   `       |
+|                | Chargement de la table sys_sdo_...  ???     |
 |                | **Destroy your computer!**     |
