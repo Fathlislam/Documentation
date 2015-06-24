@@ -17,12 +17,12 @@
 |                |`$schema=$this->schema; `                                                                               |
 |                |`$schema=$this->_objCMFCAction->schema;`                                                                |
 |                |`$desc=$this->_objCMFCAction->getDBObject($table,end($sc),'table',$schema);   `                         |
-|                | Chargement de la table sys_database_object_sdo  = $desc                                                |
-|                | Affichage de la modal avec le nom de la table selectionnée                                             |
-|                | Chargement de la table sys_database_object_sdo = $Affichage                                            |
-|                | Si le type de contrainte `sdo_constraint_type` = pk                                                    |
-|                |`$table_ref=$affichage[0]['sdo_referenced_table']; $table_ref_exp=explode('_',$table_ref);$schema_ref=$affichage[0]['sdo_referenced_schema'];`                               |
-|                | ` $affichage_ref=$this->_objCMFCAction->getDBObject($affichage[0]['sdo_referenced_field_name'],end($table_ref_exp),'field',$schema_ref);`                                                                                           |
+|                |                                                |
+|                |                                             |
+|                |                                             |
+|                |                                                     |
+|                |                                |
+|                |                                                                                           |
 |                |**La suite est compliquée, je repasserai!**    |
 |                | A partir de ` if($affichage[0]['sdo_constraint_type']=='fk') `    |
 |                | Si le type de contrainte `sdo_constraint_type` <> pk    |
