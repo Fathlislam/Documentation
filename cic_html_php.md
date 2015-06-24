@@ -8,9 +8,11 @@
 |                | Récuperation de l'id `[rpt_id]` de l'accueil s'lectionné                                       |
 |                | Mise en session de `[rpt_id]`         |
 |                | Execution de la requete`html` renvoi vers le fichier `cic.html` au `case 'none' :`       |
-|                | Affichage de la liste des tables                                                                       |
-|                | " + " Ajouter une ligne `(getModalCreate()) `                                                           |
-|                |`(getModalCreat()) ` ==> Requete Ajax vers le fichier table.ajax  et `case 'ajouterLigne' :`            |
+| `cic.ajax.php` | Mise a disposition des 4 etats (fonctionalitées) attendu/present/sorti/entré             |
+|                | Tableau de la liste des visiteur selon etat ( par défaut : la liste des visiteurs attendus)    |
+|                |Affichage des icones " imprimer/ enregistrer/rafraichir/ajouter un avis de visite "  avec requete       (ajax/html) selon icone          |
+|                |`$schema=$this->schema; `                                                                               |
+|                |`$schema=$this->schema; `                                                                               |
 |`cic.ajax.php`|`$sc=explode("_",$table); `                                                                             |
 |                |`$schema=$this->schema; `                                                                               |
 |                |`$schema=$this->_objCMFCAction->schema;`                                                                |
