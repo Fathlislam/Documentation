@@ -5,9 +5,9 @@
 | ----------------| ------------------------------                                                                         |
 |`cic.html.php`   | Séléction de l'accueil                                                             |
 |                | Requete`Ajax` renvoi vers le fichier `cic.ajax` au `case 'chooseRpt2' :`      |
-|                | === > si `[prf_id]` est inf ou = au niveau d'administration minimum                                     |
-|                | Au clic sur une table ==> requete `html` renvoi vers le fichier `table.html` au `case 'afficherTable' :`|
-|                | **Ligne 43 ' a voir avec fabrice'**                                                                   |
+|                | Récuperation de l'id `[rpt_id]` de l'accueil s'lectionné                                       |
+|                | Mise en session de `[rpt_id]`         |
+|                | Execution de la requete`html` renvoi vers le fichier `cic.html` au `case 'none' :`       |
 |                | Affichage de la liste des tables                                                                       |
 |                | " + " Ajouter une ligne `(getModalCreate()) `                                                           |
 |                |`(getModalCreat()) ` ==> Requete Ajax vers le fichier table.ajax  et `case 'ajouterLigne' :`            |
