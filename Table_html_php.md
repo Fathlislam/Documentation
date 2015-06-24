@@ -17,8 +17,8 @@
 |                |`$schema=$this->schema; `    |
 |                |`$schema=$this->_objCMFCAction->schema;`    |
 |                |`$desc=$this->_objCMFCAction->getDBObject($table,end($sc),'table',$schema);   `       |
-|                | Chargement de la table sys_sdo_...  ???     |
-|                | **Destroy your computer!**     |
+|                | Chargement de la table sys_database_object_sdo     |
+|                | Affichage de la modal avec le nom de la table selectionnée     |
 |                | **Destroy your computer!**     |
 |                | **Destroy your computer!**     |
 |                | **Destroy your computer!**     |
