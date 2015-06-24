@@ -1,4 +1,8 @@
 
 
    >> ``/*Ciconia/Modules/Administration .. / Gestion de référentiel*/``
-  ### Titre _stylé_ non numéroté {style="background: #eee;" -}
+  
+| Function name | Description                    |
+| ------------- | ------------------------------ |
+| `help()`      | Display the __help__ window.   |
+| `destroy()`   | **Destroy your computer!**     |
