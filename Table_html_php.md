@@ -24,14 +24,14 @@
 |                |`$table_ref=$affichage[0]['sdo_referenced_table']; $table_ref_exp=explode('_',$table_ref);$schema_ref=$affichage[0]['sdo_referenced_schema'];`                               |
 |                | ` $affichage_ref=$this->_objCMFCAction->getDBObject($affichage[0]['sdo_referenced_field_name'],end($table_ref_exp),'field',$schema_ref);`                                                                                           |
 |                | **La suite est compliquée, je repasserai!**    |
-|                | **Destroy your computer!**     |
-|                | **Destroy your computer!**     |
-|                | **Destroy your computer!**     |
-|                | **Destroy your computer!**     |
-|                | **Destroy your computer!**     |
-|                | **Destroy your computer!**     |
-|                | **Destroy your computer!**     |
-|                | **Destroy your computer!**     |
-|                | **Destroy your computer!**     |
-|                | **Destroy your computer!**     |
-|                | **Destroy your computer!**     |
+|                |      |
+|                |      |
+|                |      |
+|                |      |
+|                |      |
+|                |      |
+|                |      |
+|                |      |
+|                |      |
+|                |      |
+|                |      |
