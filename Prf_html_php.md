@@ -13,11 +13,11 @@
 |                | S'il ya réstriction, Ajout de l'icone "supprimer profile"                                  |
 
 
-|Fichier         | Explication (traitement)                                                                   |
-|----------------| ------------------------------                                                             |
-|                | Sinon, Ne pas donner l'acces à la suppression du profile                                   |
-|                | Sinon, Ne pas donner l'acces à la suppression du profile                                   |
-|                | Sinon, Ne pas donner l'acces à la suppression du profile                                   |
-|                | Sinon, Ne pas donner l'acces à la suppression du profile                                   |
-|                | Sinon, Ne pas donner l'acces à la suppression du profile                                   |
-|                | Sinon, Ne pas donner l'acces à la suppression du profile                                   |
+|Requetes            |  (traitement)                                                                              |
+|----------------    | ------------------------------                                                             |
+|  Rafraichir        | Sinon, Ne pas donner l'acces à la suppression du profile                                   |
+|  Ajouter un profil | Sinon, Ne pas donner l'acces à la suppression du profile                                   |
+|                    | Sinon, Ne pas donner l'acces à la suppression du profile                                   |
+|                    | Sinon, Ne pas donner l'acces à la suppression du profile                                   |
+|                    | Sinon, Ne pas donner l'acces à la suppression du profile                                   |
+|                    | Sinon, Ne pas donner l'acces à la suppression du profile                                   |
