@@ -19,3 +19,11 @@
 |                |`$desc=$this->_objCMFCAction->getDBObject($table,end($sc),'table',$schema);   `       |
 |                | Chargement de la table sys_sdo_...  ???     |
 |                | **Destroy your computer!**     |
+|                | **Destroy your computer!**     |
+|                | **Destroy your computer!**     |
+|                | **Destroy your computer!**     |
+|                | **Destroy your computer!**     |
+|                | **Destroy your computer!**     |
+|                | **Destroy your computer!**     |
+|                | **Destroy your computer!**     |
+|                | **Destroy your computer!**     |
