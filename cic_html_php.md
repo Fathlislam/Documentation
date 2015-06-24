@@ -17,10 +17,10 @@
 |                |`$schema=$this->schema; `                                                                               |
 |                |`$schema=$this->_objCMFCAction->schema;`                                                                |
 |                |`$desc=$this->_objCMFCAction->getDBObject($table,end($sc),'table',$schema);   `                         |
-|                |                                                |
-|                |                                             |
-|                |                                             |
-|                |                                                     |
+|                |                                |
+|                |                                |
+|                |                                |
+|                |                                |
 |                |                                |
 |                |                                                                                           |
 |                |**La suite est compliquée, je repasserai!**    |
