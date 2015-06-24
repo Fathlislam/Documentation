@@ -20,7 +20,7 @@
 |                | Chargement de la table sys_database_object_sdo  = $desc                                                |
 |                | Affichage de la modal avec le nom de la table selectionnée                                             |
 |                | Chargement de la table sys_database_object_sdo = $Affichage      |
-|                | **Destroy your computer!**     |
+|                | Si la le type de contrainte `sdo_constraint_type` = pk      |
 |                | **Destroy your computer!**     |
 |                | **Destroy your computer!**     |
 |                | **Destroy your computer!**     |
