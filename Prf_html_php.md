@@ -18,7 +18,7 @@
 |  Rafraichir        | Requete html renvoi au debut du fichier prf.html.php                                       |
 |  Ajouter un profil | Requete html renvoi vers le fichier `prfedit.html` au `case 'createPrf' :`                 |
 |                    | Affichage du formulaire "Informations générales"                                           |
-|                    |                                                                                            |
-|                    | Sinon, Ne pas donner l'acces à la suppression du profile                                   |
+|                    | Affichage de l'icone "Creer le profil"                                           |
 | Details du profil  | Sinon, Ne pas donner l'acces à la suppression du profile                                   |
+|                    | Sinon, Ne pas donner l'acces à la suppression du profile                                   |
 |                    | Sinon, Ne pas donner l'acces à la suppression du profile                                   |
