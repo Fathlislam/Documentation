@@ -1,6 +1,5 @@
 
  ``
- 
    >> ``/*Ciconia/Modules/Administration .. / Gestion de référentiel*/``
   
 | Fichier         | Explication (traitement)                                                                               |
