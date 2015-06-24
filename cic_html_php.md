@@ -13,17 +13,17 @@
 |                |Affichage des icones " imprimer/ enregistrer/rafraichir/ajouter un avis de visite "  avec requete       (ajax/html) selon icone          |
 |                |si clic  `Ajout d'un avis de visite `                                                               |
 |                |Requete`html` renvoi vers le fichier `meetingnotice.html` au `case 'ajoutAvis' :`       |
-|`meetingnotice.html.php`|`$sc=explode("_",$table); `                                                                 |
-|                |`$schema=$this->schema; `                                                                               |
-|                |`$schema=$this->_objCMFCAction->schema;`                                                                |
-|                |`$desc=$this->_objCMFCAction->getDBObject($table,end($sc),'table',$schema);   `                         |
+|`meetingnotice.html.php`|        **Affaire à suivre**                                                        |
+|                |                                                                           |
+|                |                                                               |
+|                |                         |
 |                |                                |
 |                |                                |
 |                |                                |
 |                |                                |
 |                |                                |
 |                |                                                                                           |
-|                |**La suite est compliquée, je repasserai!**    |
-|                | A partir de ` if($affichage[0]['sdo_constraint_type']=='fk') `    |
-|                | Si le type de contrainte `sdo_constraint_type` <> pk    |
+|                |   |
+|                |    |
+|                |     |
 |                |      |
