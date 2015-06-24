@@ -12,8 +12,8 @@
 |                 | Ligne 43 ' a voir avec fabrice'                                    |
 |                 | Affichage de la liste des tables                                   |
 |                 | " + " Ajouter une ligne `(getModalCreat()) `                       |
-| `destroy()`     |      |
-| `destroy()`     | **Destroy your computer!**     |
+|                 |`(getModalCreat()) ` ==> Requete Ajax vers le fichier table.ajax  et `case 'ajouterLigne' :`     |
+|`table.ajax.php` | **Destroy your computer!**     |
 | `destroy()`     | **Destroy your computer!**     |
 | `destroy()`     | **Destroy your computer!**     |
 | `destroy()`     | **Destroy your computer!**     |
