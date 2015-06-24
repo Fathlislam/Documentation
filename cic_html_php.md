@@ -3,8 +3,8 @@
   
 | Fichier         | Explication (traitement)                                                                               |
 | ----------------| ------------------------------                                                                         |
-|`cic.html.php`| Chargement des tables de la base de donénes                                                             |
-|                | Pour chaque table, tester si ce profil a le droit d'afficher cette table ou nn, si oui, l'afficher      |
+|`cic.html.php`   | Séléction de l'accueil                                                             |
+|                | Requete`Ajax` renvoi vers le fichier `cic.ajax` au `case 'chooseRpt2' :`      |
 |                | === > si `[prf_id]` est inf ou = au niveau d'administration minimum                                     |
 |                | Au clic sur une table ==> requete `html` renvoi vers le fichier `table.html` au `case 'afficherTable' :`|
 |                | **Ligne 43 ' a voir avec fabrice'**                                                                   |
