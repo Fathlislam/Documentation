@@ -20,5 +20,5 @@
 |                    | Affichage du formulaire "Informations générales"                                           |
 |                    | Affichage de l'icone "Creer le profil"                                           |
 | Details du profil  | Sinon, Ne pas donner l'acces à la suppression du profile                                   |
-|                    | Sinon, Ne pas donner l'acces à la suppression du profile                                   |
-|                    | Sinon, Ne pas donner l'acces à la suppression du profile                                   |
+|                    |                                                                              |
+|                    |                                                                              |
